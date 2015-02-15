@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	text-align		:		center;
+	height			:		100%;
+	margin			:		0px;
+	padding			:		0px;
+	background-image:		url(../images/body_bg.jpg);
+	background-repeat:		repeat;
+	color			:		#fdd017;
+	font-family		:		arial,sans-serif;
+}
+
+div.container{
+	width			:		900px;
+	height			:		auto;
+	margin			:		0px auto;
+	margin-top		:		20px;
+	margin-bottom	:		20px;
+	padding			:		0px;
+	float			:		none;
+	background-image:		url(../images/container_bg.png);
+	background-repeat:		repeat;
+	overflow		:		hidden;
+}
+
+div.top{
+	width			:		100%;
+	height			:		165px;
+	margin			:		0 0 0 0;
+	margin-left		:		50px;
+	float			:		left;
+	background-image:		url(../images/top.png);
+	background-repeat:		no-repeat;
+}
+
+div.topmenu{
+	width			:		100%;
+	height			:		40px;
+	margin			:		0 0 0 0;
+	margin-left		:		50px;
+	*margin-left	:		0px; /* Hack voor IE */
+	float			:		left;
+}
+
+
+
+div.center_body{
+	width			:		711px;
+	height			:		auto;
+	min-height		:		250px;
+	margin			:		0 0 0 0;
+	margin-top		:		15px;
+	margin-left		:		75px;
+	*padding-top	:		15px; /* Hack voor IE */
+	padding-left	:		15px;
+	padding-right	:		15px;	
+	padding-bottom	:		15px;
+	float			:		left;
+	border			:		2px solid #fdd017;
+	text-align		:		justify;
+}
+
+div.footer{
+	width			:		100%;
+	height			:		40px;
+	margin			:		0 0 0 0;
+	float			:		left;	
+	clear			:		both;
+}
+
+#contact legend{
+	font-size		:		18px;
+	font-weight		:		bold;
+	border			:		1px solid 	#fdd017;
+	padding-left	:		15px;
+	padding-right	:		15px;
+}
+
+#contact fieldset{
+	border			:		4px double 	#fdd017;
+	margin-top		:		15px;
+}
+
+#contact table{
+	width			:		90%;
+	margin-left		:		5%;
+	margin-top		:		15px;
+}
+
+#contact input{
+	border			:		1px solid 	#fdd017;
+}
+
+#contact input.button{
+	border			:		3px double 	#fdd017;
+	background-color:		#800000;
+	color			:		#fdd017;
+	font-weight		:		bold;
+}
+
+#contact input.button:hover{
+	border			:		3px double 	#800000;
+	background-color:		#fdd017;
+	color			:		#800000;
+	font-weight		:		bold;
+}
+
+#contact textarea{
+	border			:		1px solid 	#fdd017;
+}

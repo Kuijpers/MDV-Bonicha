@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu ul{
+	padding			:	0; 
+	width			:	800px;
+	margin			:	0;
+	list-style		:	none; 
+	height			:	20px;
+	position		:	relative; 
+	z-index			:	50; 
+	font-family		:	arial, verdana, sans-serif;
+	
+}
+
+#menu li{
+	display			:	block; 
+	float			:	left;
+	height			:	50px;
+	font-size		:	24px;
+	margin-left		:	14px;
+}
+
+#menu a{
+	color			:		#fdd017;
+	font-family		:		arial,sans-serif;	
+	text-decoration	:		none; 	
+}
+#menu a:hover{
+	color			:		#fdd017;
+	font-family		:		arial,sans-serif;
+	text-decoration	: 		underline;
+}
+
+#menu a.active{
+	color			:		#fdd017;
+	font-family		:		arial,sans-serif;	
+	text-decoration	:		underline; 	
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contact input.field{
+	border				:		1px solid 	#fdd017;
+}
+
+#contact input.errorinfo{
+	border				:		1px solid 	#fdd017;
+	background-color	:		#ffcccc;
+}
+
+#contact input.correct{
+	border				:		1px solid 	#fdd017;
+	background-color	:		#ccffcc;
+}
+
+#contact textarea{
+	border				:		1px solid 	#fdd017;
+	
+}
+
+#contact textarea.correct{
+	border				:		1px solid 	#fdd017;
+	background-color	:		#ccffcc;
+	
+}
+
+#contact textarea.errorinfo{
+	border				:		1px solid 	#fdd017;
+	background-color	:		#ffcccc;
+	
+}
+
+#contact .error{
+	color				:		red;
+}
+
+#contact select.field{
+	border				:		3px double #663300;
+	background-color	:		#ffffcc;
+	color				:		#663300;
+}
